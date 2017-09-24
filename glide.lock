@@ -1,0 +1,14 @@
+hash: 8f3a97f804187482c31bb9c10e43e584822feaf001216959232f4e1589175846
+updated: 2017-09-24T18:39:30.663737099Z
+imports:
+- name: github.com/go-ole/go-ole
+  version: 8a4f5c214bfb4475619b8bb7ccbe6fa5c91745f4
+  subpackages:
+  - oleutil
+- name: github.com/mattn/go-adodb
+  version: 8a75490faf6ae99c92e96d210caeebdba7c93522
+- name: golang.org/x/net
+  version: 0744d001aa8470aaa53df28d32e5ceeb8af9bd70
+  subpackages:
+  - context
+testImports: []

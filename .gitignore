@@ -1,0 +1,14 @@
+*.swp
+github
+
+.be-*
+
+.glide
+
+vendor
+servers_template
+
+.idea
+matos_sync.iml
+matos_sync.exe
+

@@ -1,0 +1,6 @@
+package: matos_sync
+import:
+- package: github.com/go-ole/go-ole
+  subpackages:
+  - oleutil
+- package: github.com/mattn/go-adodb
