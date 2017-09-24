@@ -2,7 +2,7 @@
 
 This project is a POC to sync up a local access (windows) collection of tables to mysql DB on a secured remote server (through SSH)
 
-The program is built from golang and can be built from linux (cross compiling)
+The program is built from golang in linux (cross compiling)
 
 # Getting started
 
