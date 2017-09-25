@@ -36,3 +36,7 @@ The binary is a 32 bits, so, you need to install the 32bits library as well.
 For MS Access 2007, I installed the following:
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=13255
 
+# TODO
+
+- Expose Matos DB as a REST API to just read it.
+- Expose Matos DB as a REST API to update it if needed.
