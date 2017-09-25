@@ -14,15 +14,15 @@ import (
 func createMdb(f string) error {
 	unk, err := oleutil.CreateObject("ADOX.Catalog")
 	if err != nil {
-		return err
+		return fmt.Errorf("CreateObject: %s", err)
 	}
 	cat, err := unk.QueryInterface(ole.IID_IDispatch)
 	if err != nil {
-		return err
+		return fmt.Errorf("QueryInterface: %s", err)
 	}
 	_, err = oleutil.CallMethod(cat, "Create", "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + f + ";")
 	if err != nil {
-		return err
+		return fmt.Errorf("CallMethod: %s", err)
 	}
 	return nil
 }

@@ -45,7 +45,7 @@ then
    shift
 fi
 
-WINDOWS_ENV="-e GOOS=windows -e GOARCH=amd64"
+WINDOWS_ENV="-e GOOS=windows -e GOARCH=386"
 
 if [ -t 1 ]
 then
