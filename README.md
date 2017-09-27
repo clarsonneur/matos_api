@@ -8,7 +8,7 @@ As we are going to migrate from windows MS Access to a remote web service, progr
 
 For that reason, we are writing a golang windows binary from linux to get access to Access DB, under Windows.
 
-Details are in [github project](https://github.com/clarsonneur/matos_api/projects]
+Details are in [github project](https://github.com/clarsonneur/matos_api/projects)
 
 # Getting started
 
