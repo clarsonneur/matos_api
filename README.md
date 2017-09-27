@@ -1,12 +1,18 @@
 # Introduction
 
-This project is a POC to sync up a local access (windows) collection of tables to mysql DB on a secured remote server (through SSH)
+This project contains code to migrate time to time the existing windows/MS access DB managing our diving materials to an internet web service.
 
-The program is built from golang in linux (cross compiling)
+The internet service will at least provide the same functionality and will be evolve with much more features on needs.
+
+As we are going to migrate from windows MS Access to a remote web service, progressively, we need to keep functional, the existing DB and enhance it with a connectivity to prepare the transition.
+
+For that reason, we are writing a golang windows binary from linux to get access to Access DB, under Windows.
+
+Details are in [github project](https://github.com/clarsonneur/matos_api/projects)
 
 # Getting started
 
-From a linux box:
+Here are details to build the current golang program from a linux box:
 
 ## Requirements
 
@@ -36,7 +42,3 @@ The binary is a 32 bits, so, you need to install the 32bits library as well.
 For MS Access 2007, I installed the following:
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=13255
 
-# TODO
-
-- Expose Matos DB as a REST API to just read it.
-- Expose Matos DB as a REST API to update it if needed.
